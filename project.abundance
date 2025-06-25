@@ -350,6 +350,10 @@
                         {
                             "name": "WallHeight",
                             "ioValue": 3
+                        },
+                        {
+                            "name": "WallHeight",
+                            "ioValue": 3
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2167,6 +2171,36 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.2650943396226415,
+            "y": 0.6673267326732674,
+            "uniqueID": "4f63a68b-9be5-4ebe-99f2-078810528296",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "91fd88d6-6308-43ab-b121-08146dde7440"
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "M4-MotorCover"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STEP"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STEP",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "M4-MotorCover"
         }
     ],
     "allConnectors": [
@@ -2176,6 +2210,13 @@
             "ap2Primary": false,
             "ap1ID": "91fd88d6-6308-43ab-b121-08146dde7440",
             "ap2ID": "9e2dc033-669b-47d4-9fc0-8b578eca08c0"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "91fd88d6-6308-43ab-b121-08146dde7440",
+            "ap2ID": "4f63a68b-9be5-4ebe-99f2-078810528296"
         }
     ],
     "unitsKey": "MM",
